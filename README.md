@@ -93,3 +93,49 @@ atlas/
 ├── 🛠️ tools/           # File ops, system automation scripts
 ├── 📝 config.py        # User settings (Models, Paths, Wake words)
 └── main.py             # Entry point & event loop
+
+
+
+🗣️ Command Guide
+Wake Word: "Atlas..."
+
+👨‍💻 Developer Mode
+"Create a Python script called sorting.py."
+
+"Explain the code in main.py."
+
+"Start my coding environment." (Opens VS Code + Spotify + Github)
+
+📅 Productivity
+"Remind me to push code in 20 minutes."
+
+"Add 'Refactor API' to my task list."
+
+"What is on my agenda today?"
+
+🧠 Memory
+"Remember that my API keys are in the .env file."
+
+"Forget the last instruction."
+
+🛡️ Privacy & Safety
+Atlas is designed with Safety Rails:
+
+Sandboxed Filesystem: By default, Atlas only has write permissions in the ./workspace directory. Do not change this to root unless you know what you are doing.
+
+Confirmation Loops: Critical actions (file overwrites, deleting data) require explicit voice confirmation ("Yes/No").
+
+Local Only: No audio or text leaves your machine.
+
+🗺️ Roadmap
+[ ] GUI Dashboard: A minimal web interface for logs and memory management.
+
+[ ] Vision Capabilities: Integrate llava for screen understanding.
+
+[ ] Plugin System: Easy drag-and-drop python scripts for new skills.
+
+🤝 Contributing
+Contributions are welcome! Please check the CONTRIBUTING.md (coming soon) for guidelines.
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
